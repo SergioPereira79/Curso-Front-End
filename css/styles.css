@@ -49,7 +49,7 @@ nav a{
 .sidebar{
     padding: 90px 0;
     float: left;
-    width: 20%;
+    width: 22%;
     height: 510px;
     overflow-y: scroll;
     background-color: rgba(227, 53, 23, 0.7);
@@ -75,6 +75,14 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+i{
+    color: firebrick;
+    transition: 0.5s;
+}
+i:hover{
+    color: #4c0000;
+    transition: 0.5s;
 }
 .testes{
     padding: 20px 0;
@@ -150,11 +158,4 @@ input{
 }
 .bg3{
     background-color: blue;
-}
-
-.box{
-    width: 500px;
-    height: 300px;
-    background-color: aquamarine;
-    margin: 0 auto;
 }
